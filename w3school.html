@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>W3school</title>
+	<style text="text/css">
+	html,body,ul,h1{
+		margin:0;
+		padding:0;
+	}
+	.logo{
+		width: 275px;
+		height: 90px;
+		background-image: url("./image/bg.png");
+		background-repeat: no-repeat;
+		background-position: 0px -156px;    
+	}
+	.logo:hover{
+		background-position: 0px -256px;
+	}
+	.top{
+		width:1210px;
+		margin:0 auto;
+	}
+	.bar{
+		background-color: #eee;
+	}
+	.bar li{
+		float:left;
+		list-style:none;
+		padding:10px;
+		background-color: #eee;
+		width: 152px;
+    	text-align: center;
+     }
+	.bar li:hover{
+		background-color:black;
+		color:#fff;
+	}
+	.clearfix::after{
+		display: block;
+		content:"";
+		clear:both;
+		height:0;
+	}
+	.content{
+		width:1210px;
+		margin:20px auto;
+	}
+	.left,.middle,.right{
+		float:left;
+		height:800px;
+		border:1px solid #eee;
+	}
+	.left{
+		width:180px;
+		border-bottom: none;
+	}
+	.left h1{
+		text-align: center;
+		background-color:#eee;
+		font-family:"微软雅黑";
+		font-size: 18px;
+		font-weight:300;
+	}
+	.left h2{
+		font-family:"微软雅黑";
+		font-size: 14px;
+		margin:10px;
+	}
+	.left ul{
+		list-style:none;
+	}
+	.left ul li{
+		padding:3px;
+		font-family:"微软雅黑";
+		font-size: 12px;
+		margin: 5px 10px;
+	}
+	.left li:hover{
+		background-color:grey;
+	}
+	.choose h1{
+		margin:10px 0;
+	}
+	.help ul li{
+		color:blue;
+		padding:10px 10px;
+		font-size: 4px;
+		font-family:"微软雅黑"; 
+	}
+	.middle{
+		width:800px;
+		padding:20px;
+		height:760px;
+		border:none;
+	}
+	.middle h1{
+    	margin:0 0 0 25px;
+    	font-size: 28px;
+    	font-weight: 400;
+    }
+	.middle button{
+		padding:5px 40px;
+		margin:25px 10px;
+	}
+	.middle ul li{
+		list-style: none;
+		padding:5px;
+		font-family:"微软雅黑";
+		font-size:14px;
+	}
+	.middle p span{
+		color:#ff9955;
+	}
+	.middle-up{
+		margin:25px 0;
+	}
+	.middle-down{
+		margin:25px 0;
+    }
+	.middle-up b p{
+		font-family:"微软雅黑";
+		font-size: 18px;
+		font-weight: 800;
+		color:rgb(63,63,63);
+	}
+	.middle-up p{
+		font-family:"微软雅黑";
+		font-size:14px;
+	}
+	.middle-down b p{
+		font-family:"微软雅黑";
+		font-size: 18px;
+		font-weight: 800;
+		color:rgb(63,63,63);
+	}
+	.middle-down xmp{
+		font-family:"微软雅黑";
+		font-size:14px;
+	}
+    .try button{
+		background-color:rgb(233,104,107);
+		border:none;
+	}
+	.try button:hover{
+		background-color:#bd2d30;
+	}
+	.text {
+		border:1px dotted #785;
+		padding:5px 10px;
+		background-color:#f5f5f5;
+	}
+	.text xmp{
+		font-family: "Consolas";
+		line-height: 1.4px;
+	}
+	.right{
+        width:180px;
+        border-bottom: none;
+	}
+	.right h1{
+		background-color: #eee;
+		text-align: center;
+		font-size: 20px;
+		font-family: "微软雅黑";
+		font-weight: 300;
+	}
+	.right a{
+		text-decoration: none;
+		display:block;
+		width:116px;
+		height:70px;
+		line-height: 70px;
+		text-align: center;
+		margin:10px auto;
+		border-radius: 3px;
+		color:#000;
+		background-repeat:no-repeat;
+		padding:0px 5px;
+		background-image: url("./image/bg.png");
+	}
+	.book{
+		background-position:-2px -464px;
+	}
+	.lab{
+		background-position:-150px -464px;
+	}
+	.test{
+		background-position:-300px -464px;
+	}
+	.card a{
+		margin:20px auto;
+	}
+	.ad img{
+       margin:25px 11px;
+	}
+	.bottom{
+		width:1210px;
+		margin:0 auto;
+	}
+	.bottom img{
+       margin:0 auto;
+	}
+	.bottom p{
+	   margin:20px 0 30px 0;
+       font-size:14px;
+       text-align: center;
+       color: #777;
+	}
+	.bottom p a{
+		text-decoration: none;
+		color:#777;
+	}
+	.bottom p a:hover{
+		text-decoration: underline;
+		color:black;
+	}
+	</style>
+</head>
+<body>
+    <div class="top">
+      <div class="logo"></div>
+   	    <ul class="bar clearfix">
+			<li >HTML</li>
+			<li>Javascript</li>
+			<li>Service/Side</li>
+			<li>ASP.NET</li>
+			<li>XML</li>
+			<li>Web Service</li>
+			<li>Web Building</li>
+	    </ul>
+    </div>
+    <div class="content">
+     	<div class="left">
+	     	<h1>课程表</h1>
+	     	<h2>HTML基础教程</h2>
+	     	<ul>
+	     	    <li>HTML教程</li>
+	     	    <li>HTML简介</li>
+	     	    <li>HTML编辑器</li>
+	     	    <li>HTML元素</li>
+	     	</ul>
+	     	<h2>HTML表单</h2>
+	     	<ul>
+	     	   	<li>HTML表单</li>
+	     	   	<li>HTML表单元素</li>
+	     	   	<li>HTML输入类型</li>
+	     	   	<li>HTML输入属性</li>
+	     	</ul>
+	     	<h2>HTML表单</h2>
+	     	<ul>
+	     	   	<li>HTML表单</li>
+	     	   	<li>HTML表单元素</li>
+	     	   	<li>HTML输入类型</li>
+	     	   	<li>HTML输入属性</li>
+	     	</ul>
+	     	<div class="choose">	   
+	     		<h1>选修课</h1>
+	     	</div>	
+	     	<h2>建站手册</h2>
+	     	<ul>
+	     	    <li>网站构建</li>
+	     	    <li>浏览器信息</li>
+	     	    <li>网站品质</li>
+	     	</ul>
+	        <div class="help">
+	            <ul>
+		           <li>关于W3school</li>
+		           <li>帮助W3school</li>
+	            </ul>
+	        </div>
+    	</div>
+	    <div class="middle">
+	     	<h1>基本的 HTML 标签 - 四个实例</h1>
+	     	<button type="button">上一节</button>
+	     	<button type="button">下一节</button>
+	        <hr>
+	        <div class="middle-up">
+	        	<b>
+	          	<p>本章通过实例向您演示最常用的 HTML 标签。</p>
+	        	</b>
+	          	<p><span>提示: </span>不要担心本章中您还没有学过的例子，您将在下面的章节中学到它们。</p>
+	          	<p><span>提示: </span>学习 HTML 最好的方式就是边学边做实验。我们为您准备了很好的 HTML 编辑器。使用这个编辑器，您可以任意编辑一段 HTML 源码，然后单击 TIY 按钮来查看结果。</p>
+	        </div>
+	        <hr>
+	     	<div class="middle-down">
+		        <b>
+		       	  <p>HTML标题</p>
+		        </b>
+	            <p><xmp>HTML 标题（Heading）是通过<h1>-<h6>等标签进行定义的。</xmp></p>
+	        	<b>  
+	          		<p>实例</p>
+	        	</b>
+		        <div class="text">
+			        <xmp><h1>This is a heading</h1></xmp>
+			        <xmp><h2>This is a heading</h2></xmp>
+			        <xmp><h3>This is a heading</h3></xmp>
+		        </div>
+		        <div class="try">
+		        	<button type="try">亲自试一试</button>
+		        </div>
+	      	</div>
+	        <hr>
+	    </div>
+	    <div class="right">
+	     	<h1>工具箱</h1>
+	     	<div class="card">
+		     	<a href="http:www.baidu.com" class="book"></a>
+		     	<a href="http:www.baidu.com" class="lab"></a>
+		     	<a href="http:www.baidu.com" class="test"></a>
+	     	</div>
+	     	<h1>赞助商链接</h1>
+	     	<div class="ad">
+	     		<img src="./image/ad.png">
+	     	</div>
+	    </div>
+    </div>
+  <div class="bottom">
+  	<img src="./image/db.png">
+  	<p>当使用本站时，代表您已接受了本站的<a href="http:www.baidu.com">使用条款</a>和<a href="http:www.baidu.com">隐私条款</a>。版权所有，保留一切权利。 赞助商：<a href="www.baidu.com">上海赢科投资有限公司</a>。 <a href="http:www.baidu.com">蒙ICP备06004630号</a></p>
+  </div>
+</body>
+</html>
