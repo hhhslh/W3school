@@ -1,2 +1,10 @@
 # w3school
-主要运用了一些html标签，如 h ul li
+* html+css
+  *html标签，如
+  块内元素（display：block）：div h p ul 等
+  行内元素（display：inline）：a b span img 等
+  *css样式
+  盒子模型：content padding margin border
+  浮动 清除浮动
+  背景图片
+
